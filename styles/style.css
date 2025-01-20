@@ -1,0 +1,153 @@
+:root{
+    --clr-btn: rgb(254, 163, 1);
+    --clr-primary: rgb(17, 17, 17);
+    --clr-black: #000000;
+    --clr-blue:#01ACFD;
+ 
+}
+
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+/* shared font-sizing */
+.bold{
+    font-weight: bold;
+}
+.desc-color{
+    color: #808080;
+}
+.font-15{
+    font-size: .9rem;
+}
+.font-20{
+    font-size: 1.25rem;
+}
+.font-24{
+    font-size: 1.5rem;
+}
+.font-46{
+    font-size: 2.875rem;
+}
+.font-56{
+    font-size: 3.5rem;
+}
+
+
+
+/* nav section */
+.container{
+    max-width: 1160px;
+    margin-inline: auto;
+    padding-inline: .5rem;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center; 
+}
+
+
+
+.logo{
+    width: clamp(46px, 46px + 1vw, 62px);
+}
+
+
+
+
+.navigation a:nth-child(1){
+    color: var(--clr-btn)
+}
+.navigation a:nth-child(2){
+    color: rgba(1, 172, 253, 1);
+}
+.navigation a:nth-child(3){
+    color: #05D4DF;
+}
+.navigation a:nth-child(4){
+    color:#5D58EF;
+}
+.navigation a{
+    text-decoration: none;
+    
+}
+.navigation span{
+    padding-inline: 2rem;
+}
+
+nav .btn-primary{
+    font-size: 1.25rem;
+    padding-inline:clamp(24px, 24px + 2vw, 47px);
+    padding-block: clamp(6px, 3px + 1vw, 10px);
+    border-radius: clamp(8px, 4px + 1vw, 12px);
+    border: none;
+    background-color: var(--clr-btn);
+    color: white;
+    cursor: pointer;
+}
+.contact:hover{
+    background-color: aliceblue;
+    opacity: .90;
+}
+
+
+
+/* hero-section */
+
+/* even-columns */
+
+.even-columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    row-gap: 24px;
+
+}
+.hero span:nth-child(1){
+ color: var(--clr-btn);
+}
+.hero span:nth-child(4){
+    color: var(--clr-blue);
+}
+
+
+.hero .btn-primary{
+    font-size: 1.25rem;
+    padding-inline:clamp(24px, 24px + 2vw, 47px);
+    padding-block: clamp(6px, 3px + 1vw, 10px);
+    border-radius: clamp(8px, 4px + 1vw, 12px);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+    background-color: var(--clr-primary);
+}
+.hero-img img{
+    width: clamp(336px, 200px + 21vw, 468px);
+
+}
+
+
