@@ -17,6 +17,9 @@
 
 body{
     background-color: rgb(247, 247, 247);
+    max-width: 1440px;
+    margin-inline: auto;
+    font-family: "Quicksand", serif;
 }
 
 img{
@@ -154,10 +157,26 @@ nav .btn-primary{
 
 
 /* curriculum section */
+.card-section{
+    background-image: url(../assets/bg.png);
+    
+    
+}
+.card-section > div{
+    text-align: center;
+    margin-block: 60px 80px;
+    
+}
+
+
+
 .curriculum-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, 367px);
-    column-gap: 20px;
+    gap: 20px;
+    justify-content: center;
+    
+    
 }
 
 
@@ -166,19 +185,32 @@ nav .btn-primary{
 
 .card{
     width: 367px;
-    height: clamp(321px, 200px + 10vw, 476px);
+    height: clamp(321px, 200px + 25vw, 476px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 33px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    fill: white;
+    padding: 65px 40px 53px 40px;
 
+    
 }
 .card a{
     text-decoration: none;
     font-weight: bold;
 
 }
+.card p{
+    line-height: 28.3px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Raleway", serif;
+}
+
+
+
 .card .span-1{
     color: #64C8FF;
 }
@@ -193,17 +225,17 @@ nav .btn-primary{
  justify-self: center;
 }
 .card-1{
-    background: linear-gradient(to bottom,rgba(1, 172, 253,.1)  ,rgba(1, 172, 253, .0) 40%);
+    background: linear-gradient(to bottom,rgba(1, 172, 253, 0.1) ,rgba(1, 172, 253, 0) 40%, white);
     border-radius: clamp(12px, 10px + 2vw, 19px); 
-    border: 1px rgb(222, 245, 255) solid;
+    border: 1px rgb(222, 239, 248) solid;
 }
 .card-2{
-    background: linear-gradient(to bottom, rgba(254, 163, 1, .1), rgba(254, 163, 1, 0)40%);
-    border: 1px solid rgb(255, 244, 220);
+    background: linear-gradient(to bottom, rgba(254, 163, 1, .1), rgba(254, 163, 1, 0)40%, white);
+    border: 1px solid rgb(247, 237, 221);
     border-radius: clamp(12px, 10px + 2vw, 19px);
 }
 .card-3{
-    background: linear-gradient(to bottom, rgba(135, 0, 255, .1), rgba(135, 0, 255, 0)40%);
+    background: linear-gradient(to bottom, rgba(135, 0, 255, .1), rgba(135, 0, 255, 0)40% , white);
     border-radius: clamp(12px, 10px + 2vw, 19px); 
     border: 1px rgb(242, 232, 255) solid;
 }
