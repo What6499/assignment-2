@@ -75,7 +75,7 @@ nav{
     display: flex;
     align-items: center;
 }
-.logo span{
+.logo p{
     font-size: 2rem;
 }
 
@@ -97,9 +97,14 @@ nav{
 .navigation a{
     text-decoration: none;
     
+    
 }
 .navigation span{
-    padding-inline: 2rem;
+    /* padding-inline: 1rem; */
+    position: relative;
+    left: 3rem;
+    padding-inline: 1rem;
+    
 }
 
 nav .btn-primary{
