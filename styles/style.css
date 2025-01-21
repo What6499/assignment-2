@@ -158,8 +158,10 @@ nav .btn-primary{
 
 /* curriculum section */
 .card-section{
-    background-image: url(../assets/bg.png);
-    
+    background-image: url(../assets/bg.png),
+    url(../assets/bg.png);
+    background-position: top, bottom;
+    background-size:  100%;
     
 }
 .card-section > div{
@@ -186,6 +188,7 @@ nav .btn-primary{
 .card{
     width: 367px;
     height: clamp(321px, 200px + 25vw, 476px);
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,13 +253,17 @@ nav .btn-primary{
 
 .stories-section{
     background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url(../assets/bg.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: clamp(2.5rem, 0.714rem + 4.762vw, 5rem);
+    
 }
 .stories h3{
     text-align: center;
 }
 .stories button{
     font-family: "Raleway", serif;
-    /* width: clamp(103px, 50px + 13vw, 174px); */
+    
     
     font-size: clamp(9px, 3px + 1vw, 16px );
     padding-inline: 1.125rem;
@@ -271,6 +278,7 @@ nav .btn-primary{
 
 
 .stories-images{ 
+
     display: flex;
     max-width: 1160px;
     gap: 1rem;
@@ -319,4 +327,20 @@ nav .btn-primary{
     display: grid;
     grid-template-columns: repeat(2, 290px);
     gap: 1rem;
+}
+
+.stories .btn-primary{
+    font-size: 1.25rem;
+    padding-inline:clamp(24px, 24px + 2vw, 47px);
+    padding-block: clamp(6px, 3px + 1vw, 10px);
+    border-radius: clamp(8px, 4px + 1vw, 12px);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Quicksand", serif;
+    display: flex;
+    justify-self: center;
+    margin-top: clamp(1.25rem, -1.429rem + 7.143vw, 5rem);
+    
+    background-color: var(--clr-primary);
 }
