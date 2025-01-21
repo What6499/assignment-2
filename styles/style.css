@@ -225,17 +225,24 @@ nav .btn-primary{
  justify-self: center;
 }
 .card-1{
-    background: linear-gradient(to bottom,rgba(1, 172, 253, 0.1) ,rgba(1, 172, 253, 0) 40%, white);
+    background: linear-gradient(to bottom,rgba(1, 172, 253, 0.1) ,rgba(1, 172, 253, 0) 40%), white;
     border-radius: clamp(12px, 10px + 2vw, 19px); 
     border: 1px rgb(222, 239, 248) solid;
 }
 .card-2{
-    background: linear-gradient(to bottom, rgba(254, 163, 1, .1), rgba(254, 163, 1, 0)40%, white);
+    background: linear-gradient(to bottom, rgba(254, 163, 1, .1), rgba(254, 163, 1, 0)40%), white;
     border: 1px solid rgb(247, 237, 221);
     border-radius: clamp(12px, 10px + 2vw, 19px);
 }
 .card-3{
-    background: linear-gradient(to bottom, rgba(135, 0, 255, .1), rgba(135, 0, 255, 0)40% , white);
+    background: linear-gradient(to bottom, rgba(135, 0, 255, .1), rgba(135, 0, 255, 0)40%), white;
     border-radius: clamp(12px, 10px + 2vw, 19px); 
     border: 1px rgb(242, 232, 255) solid;
 }
+.left-right{
+    width: 130px;
+    justify-self: center;
+    margin-bottom: 3.750rem;
+}
+
+
