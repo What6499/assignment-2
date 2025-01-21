@@ -260,10 +260,19 @@ nav .btn-primary{
     border: 1px rgb(242, 232, 255) solid;
 }
 .left-right{
+    display: flex;
     width: 130px;
-    justify-self: center;
-    margin-bottom: 3.750rem;
+    gap: 1rem;
+    margin-inline: auto;
     cursor: pointer;
+}
+.left:hover{
+
+transform: translate(-10px, 0px);
+}
+.right:hover{
+
+transform: translate(10px, 0px);
 }
 
 
