@@ -245,4 +245,78 @@ nav .btn-primary{
     margin-bottom: 3.750rem;
 }
 
+/* stories section */
 
+
+.stories-section{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url(../assets/bg.png);
+}
+.stories h3{
+    text-align: center;
+}
+.stories button{
+    font-family: "Raleway", serif;
+    /* width: clamp(103px, 50px + 13vw, 174px); */
+    
+    font-size: clamp(9px, 3px + 1vw, 16px );
+    padding-inline: 1.125rem;
+    padding-block: .6rem;
+    font-weight: 500;
+    border-radius: 42px;
+    border: none;
+    background-color: #01ACFD;
+    text-transform: capitalize;
+
+}    
+
+
+.stories-images{ 
+    display: flex;
+    max-width: 1160px;
+    gap: 1rem;
+}
+.image-texts{
+    padding: 33px 37px;
+    position: relative;
+}
+.image-texts button{
+    position: absolute;
+    transform: translateY(-58px);
+
+}
+
+
+
+.stories-images img{
+    border-radius: 1rem;
+
+}
+
+.image{
+    height: 300px;
+    width: 290px;
+    border-radius: 1rem;
+   
+    background-color: white;
+}
+
+
+.image-1{
+    
+    height: 615px;
+    width: 540px;
+    background-color: white;
+    border-radius: 1rem;
+}
+.image-1 p{
+    color: #666666;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+    gap: 1rem;
+}
