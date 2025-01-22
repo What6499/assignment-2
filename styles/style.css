@@ -123,6 +123,7 @@ nav .btn-primary{
 .contact:hover{
     background-color: aliceblue;
     opacity: .90;
+    z-index: 5;
 }
 
 
@@ -168,8 +169,8 @@ nav .btn-primary{
     width: clamp(336px, 200px + 21vw, 468px);
 
 }
-.hero-texts .animate:hover{
-    background-color: aliceblue;
+.hero-texts .btn-primary:hover{
+    
     opacity: .9;
 }
 /* marquee */
@@ -399,7 +400,8 @@ transition-duration: .3s ;
     background-color: var(--clr-primary);
 }    
 .stories .btn-primary:hover{
-    background-color: rgb(40, 40, 40);
+    /* background-color: rgb(40, 40, 40); */
+    opacity: .9;
 }
 
 
@@ -586,7 +588,11 @@ footer h3{
     }
     .contact svg{
         display: block;
+        cursor: pointer;
+        
+
     }
+    
     .navigation{
         display: none;
     }
