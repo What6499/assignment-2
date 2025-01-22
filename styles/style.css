@@ -348,6 +348,10 @@ transition-duration: .3s ;
 
 }    
 
+.image-texts p{
+    margin-top: 2rem;
+}
+
 
 
 .stories-images img{
