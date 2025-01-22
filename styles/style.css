@@ -365,7 +365,7 @@ transition-duration: .3s ;
 
 
 .stories-images img{
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
 
 }    
 
