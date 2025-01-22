@@ -425,7 +425,7 @@ transition-duration: .3s ;
 /* footer section */
 footer{
     background-color: rgb(1, 172, 253);
-    padding-bottom: clamp(3.75rem, -1.607rem + 14.286vw, 11.25rem);
+    padding-bottom: clamp(3.75rem, -1.607rem + 10.286vw, 11.25rem);
     padding-top: clamp(4.125rem, 1.536rem + 6.905vw, 7.75rem);
 }
 .footer-section{
