@@ -481,6 +481,9 @@ footer h3{
 
 
 @media (max-width:576px) {
+    .logo p{
+        display: none;
+    }
     .nav-line{
         width: 100%;
         border-bottom: #F0AA00 .5px solid;
@@ -579,6 +582,7 @@ footer h3{
     }
 }
 @media (max-width:880px) {
+   
     nav{
         padding-inline: 1rem;
     }
