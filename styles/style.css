@@ -217,7 +217,7 @@ marquee img{
 
 .card{
     width: 367px;
-    height: clamp(321px, 200px + 25vw, 476px);
+    height: clamp(340px, 200px + 25vw, 476px);
    
     display: flex;
     flex-direction: column;
@@ -236,7 +236,8 @@ marquee img{
 
 }
 .card p{
-    line-height: 28.3px;
+
+    line-height: 24.3px;
     font-weight: 500;
     font-size: 1rem;
     font-family: "Raleway", serif;
