@@ -169,7 +169,16 @@ nav .btn-primary{
     background-color: aliceblue;
     opacity: .9;
 }
-
+/* marquee */
+marquee{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: var(--clr-btn);
+    
+}
+marquee img{
+    width: 2.5rem;
+}
 
 
 
@@ -268,11 +277,16 @@ nav .btn-primary{
 }
 .left:hover{
 
-transform: translate(-10px, 0px);
+transform: translate(-5px, 0px) scale(1.2);
+
+transition-duration: .3s ;
+
 }
 .right:hover{
+    
+    transform: translate(5px, 0px) scale(1.2);
+    transition-duration: .3s;
 
-transform: translate(10px, 0px);
 }
 
 
@@ -458,6 +472,12 @@ footer h3{
 
 
 @media (max-width:576px) {
+    .nav-line{
+        width: 100%;
+        border-bottom: #F0AA00 .5px solid;
+        margin-top: 1rem;
+
+    }
     .hero .btn-primary{
         font-size: 1rem;
     }
