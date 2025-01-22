@@ -436,6 +436,10 @@ footer ul{
     margin-top: 32px;
     color: white;
 }
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
 footer li{
     cursor: pointer;
 }
