@@ -331,6 +331,15 @@ transition-duration: .3s ;
 .btn-2{
     background-color: rgb(93, 88, 240);
 }
+.btn-4{
+    background-color: #F0AA00;
+}
+.btn-5{
+    background-color: forestgreen;
+}
+.btn-6{
+    background-color: #8700FF;
+}
 
 
 .stories-images{ 
