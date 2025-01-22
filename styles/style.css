@@ -21,6 +21,9 @@ body{
     margin-inline: auto;
     font-family: "Quicksand", serif;
 }
+body button{
+    cursor: pointer;
+}
 
 img{
     width: 100%;
@@ -444,7 +447,7 @@ footer h3{
     display: flex;
     align-items: center;
 }
-.left p{
+.left-foot p{
     margin-top: clamp(2.188rem, 3.661rem + -3.929vw, 0.125rem);
     color: white;
 }
